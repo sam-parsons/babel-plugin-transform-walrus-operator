@@ -6,9 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sam-parsons/babel-plugin-transform-walrus-operator.git"

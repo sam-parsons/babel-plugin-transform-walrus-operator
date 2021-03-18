@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "mocha --require @babel/register"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sam-parsons/babel-plugin-transform-walrus-operator.git"
@@ -19,7 +21,11 @@
   "homepage": "https://github.com/sam-parsons/babel-plugin-transform-walrus-operator#readme",
   "devDependencies": {
     "@babel/core": "7.13.10",
-    "@babel/helper-plugin-test-runner": "7.13.10"
+    "@babel/helper-plugin-test-runner": "7.13.10",
+    "@babel/preset-env": "7.13.10",
+    "@babel/register": "7.13.8",
+    "chai": "4.3.4",
+    "mocha": "8.3.2"
   },
   "dependencies": {
     "@babel/helper-plugin-utils": "7.13.0"

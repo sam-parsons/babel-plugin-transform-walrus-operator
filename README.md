@@ -2,16 +2,42 @@
 
 > Compile the walrus operator to an IIFE
 
-## Install
-
-Using npm:
+## Installation
 
 ```sh
-npm install --save-dev babel-plugin-transform-walrus-operator
+$ npm install --save-dev babel-plugin-transform-walrus-operator
 ```
 
-or using yarn:
+## Usage
+
+### Via `.babelrc` (Recommended)
+
+**.babelrc**
+
+```json
+{
+  "plugins": ["transform-walrus-operator"]
+}
+```
+
+### Via CLI
 
 ```sh
-yarn add babel-plugin-transform-walrus-operator --dev
+$ babel --plugins transform-walrus-operator script.js
+```
+
+### Via Node API
+
+```javascript
+require('babel-core').transform('code', {
+  plugins: ['transform-walrus-operator'],
+});
+```
+
+# License
+
+MIT
+
+```
+
 ```

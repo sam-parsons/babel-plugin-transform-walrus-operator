@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-walrus-operator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "compile walrus operator into an IIFE",
   "main": "lib/index.js",
   "directories": {

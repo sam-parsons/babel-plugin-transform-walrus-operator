@@ -4,7 +4,7 @@
 
 ## Example
 
-<i>assingment statement</i>
+<i>assignment statement</i>
 
 - assigns 42 to x
 
@@ -12,7 +12,7 @@
 x = 42;
 ```
 
-<i>assingment expression</i>
+<i>assignment expression</i>
 
 - assigns 42 to x
 - returns 42
@@ -24,7 +24,7 @@ x = 42;
 <hr>
 
 - invoking a function once, producing a list of multiple values
-- saves computer time but only calling func once
+- saves compute time by only calling func once
 
 ```js
 [y := func(x), y ** 2, y ** 4, y ** 6]

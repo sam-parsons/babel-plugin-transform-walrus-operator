@@ -2,6 +2,38 @@
 
 > Compile the walrus operator to an IIFE
 
+## Example
+
+<i>assingment statement</i>
+
+- assigns 42 to x
+
+```js
+x = 42;
+```
+
+<i>assingment expression</i>
+
+- assigns 42 to x
+- returns 42
+
+```js
+(x := 42)
+```
+
+<hr>
+
+- invoking a function once, producing a list of multiple values
+- saves computer time but only calling func once
+
+```js
+[y := func(x), y ** 2, y ** 4, y ** 6]
+```
+
+## Babel Setup
+
+tokenization of `:=` in babel required
+
 ## Installation
 
 ```sh
@@ -37,7 +69,3 @@ require('babel-core').transform('code', {
 # License
 
 MIT
-
-```
-
-```

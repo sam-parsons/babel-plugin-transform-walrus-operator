@@ -1,6 +1,6 @@
 # babel-plugin-transform-walrus-operator
 
-> compile the walrus operator to an IIFE
+> compile the walrus operator ```:=``` to an IIFE
 
 ## About
 
@@ -23,8 +23,7 @@ x = 42;
 
 <hr>
 
-- invoking a function once, producing a list of multiple values
-- saves compute time by only calling func once
+#### <i>Example use case</i>
 
 ```js
 y = func(x);

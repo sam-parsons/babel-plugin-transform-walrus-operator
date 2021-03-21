@@ -2,7 +2,7 @@
 
 > compile the walrus operator to an IIFE
 
-## Example
+## About
 
 <i>assignment statement</i>
 
@@ -35,18 +35,27 @@ can become
 const arr = [y := func(x), y ** 2, y ** 4, y ** 6]
 ``` 
 
+<hr>
+
+#### <i>Transformation</i>
+
+```js
+if (x := 2) alert();
+```
+becomes
+```js
+if (function (x) {
+  if (typeof x === 'undefined') throw new Error();
+  x = 2;
+  return x;
+}(x)) alert();
+```
+
 ## Babel Setup
 
-<!-- 1. fork <a src="https://github.com/babel/babel">babel</a> to your github account
-2. clone your forked copy to your machine
-```bash
-git clone https://github.com/sam-parsons/babel.git
-```
-```bash
-$ cd babel
-$ make bootstrap
-$ make build
-``` -->
+this plugin relies upon the ```:=``` token, this will have to be manually added to babel
+
+follow <a src="https://lihautan.com/creating-custom-javascript-syntax-with-babel/#fork-the-babel">Tan Li Hau's guide,</a> you will fork babel and add a token to the parser
 
 ## Installation
 

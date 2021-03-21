@@ -22,18 +22,31 @@ x = 42;
 ```
 
 <hr>
-<!-- 
+
 - invoking a function once, producing a list of multiple values
 - saves compute time by only calling func once
--->
 
-<!-- ```js
-[y := func(x), y ** 2, y ** 4, y ** 6]
-```  -->
+```js
+y = func(x);
+const arr = [y, y ** 2, y ** 4, y ** 6];
+``` 
+can become
+```js
+const arr = [y := func(x), y ** 2, y ** 4, y ** 6]
+``` 
 
 ## Babel Setup
 
-tokenization of `:=` in babel required
+<!-- 1. fork <a src="https://github.com/babel/babel">babel</a> to your github account
+2. clone your forked copy to your machine
+```bash
+git clone https://github.com/sam-parsons/babel.git
+```
+```bash
+$ cd babel
+$ make bootstrap
+$ make build
+``` -->
 
 ## Installation
 

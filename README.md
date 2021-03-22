@@ -52,7 +52,7 @@ if (function (x) {
 
 ## Babel Setup
 
-this plugin relies upon the ```:=``` token, this will have to be manually added to babel
+this plugin relies upon the ```:=``` token, it will have to be manually added to babel's parser
 
 follow <a href="https://lihautan.com/creating-custom-javascript-syntax-with-babel/#fork-the-babel">Tan Li Hau's guide,</a> you will fork babel and add a token to the parser
 

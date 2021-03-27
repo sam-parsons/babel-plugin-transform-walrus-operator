@@ -7,6 +7,7 @@
 <i>assignment statement</i>
 
 - assigns 42 to x
+- returns undefined
 
 ```js
 x = 42;
@@ -41,13 +42,13 @@ const arr = [y := func(x), y ** 2, y ** 4, y ** 6]
 ```js
 if (x := 2) alert();
 ```
-becomes
+generally becomes
 ```js
-if (function (x) {
+if ((function (x) {
   if (typeof x === 'undefined') throw new Error();
   x = 2;
   return x;
-}(x)) alert();
+})(x)) alert();
 ```
 
 ## Babel Setup

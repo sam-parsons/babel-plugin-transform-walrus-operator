@@ -1,3 +1,13 @@
+[npm]: https://img.shields.io/npm/v/babel-plugin-transform-walrus-operator
+[npm-url]: https://www.npmjs.com/package/babel-plugin-transform-walrus-operator
+[size]: https://packagephobia.now.sh/badge?p=babel-plugin-transform-walrus-operator
+[size-url]: https://packagephobia.now.sh/result?p=babel-plugin-transform-walrus-operator
+
+[![npm][npm]][npm-url]
+[![size][size]][size-url]
+[![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
+
+
 # babel-plugin-transform-walrus-operator
 
 > compile the walrus operator ```:=``` to an IIFE

@@ -65,7 +65,7 @@ if ((function (x) {
 
 this plugin relies upon the ```:=``` token, it will have to be manually added to babel's parser
 
-follow <a href="https://lihautan.com/creating-custom-javascript-syntax-with-babel/#fork-the-babel">Tan Li Hau's guide,</a> you will fork babel and add a token to the parser
+follow <a href="https://lihautan.com/creating-custom-javascript-syntax-with-babel/#fork-the-babel">Tan Li Hau's guide,</a> you will fork babel and add a token to the parser.  see my <a href="https://github.com/sam-parsons/babel/commit/b28c29c7d9d1bd1d518ff53b68c7697ceb86cd1b">babel fork commit</a>
 
 ## Installation
 
